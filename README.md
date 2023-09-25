@@ -1,13 +1,12 @@
-# dds-datamodels-almas
+# dds-datamodels-mdpnp
 
-This datamodel is an enhanced version of the OMG® ALMAS 1.3 beta 1 datamodel
-that you can find here: https://www.omg.org/spec/ALMAS/1.3/Beta1/About-ALMAS
+This repository implements the MDPNP datamodel https://github.com/mdpnp/mdpnp/tree/master
 
 ## Repo Organization
 
 ### Versioning & Branches
 
-This repository stores the different versions of the ALMAS datamodel in
+This repository stores the different versions of the MDPNP datamodel in
 different branches. Additionally, it contains `enhanced` versions of the
 original datamodel. This enhanced versions modifies the original datamodel
 including the latest IDL features and other potential improvements. The
@@ -34,13 +33,6 @@ files that implement the datamodel. It must contain an `idl` folder that
 includes the IDL files of the datamodel. Additionally, other folders with the
 name of the technology used for the representation of the datamodel may be
 present. For example: `xml`, `json`...
-
-## Changes on the Datamodel
-
-This enhanced version contains several changes in the datamodel for the
-ALMAS version 1.3 beta 1:
-
- - Replaced the key definition with the IDL 4.2 `@key` annotation.
 
 ## Testing
 
