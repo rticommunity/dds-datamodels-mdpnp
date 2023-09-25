@@ -33,14 +33,3 @@ files that implement the datamodel. It must contain an `idl` folder that
 includes the IDL files of the datamodel. Additionally, other folders with the
 name of the technology used for the representation of the datamodel may be
 present. For example: `xml`, `json`...
-
-## Testing
-
-In order to test this datamodel after the applied changes, `rtiddsgen` from
-RTI Connext 6.1.2 has been used. A convenient script has been used to run this
-automatically. You can find the script here: https://github.com/angelrti/run-rtiddsgen
-
-In order to run the script in all files the following command was called:
-```
-run-rtiddsgen -v -D datamodel/idl -o ./delete_generated_files --additional-options="-verbosity 1" --dds-types --skip-files "*DLRL*"
-```
