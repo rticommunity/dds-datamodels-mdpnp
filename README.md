@@ -1,6 +1,6 @@
 # dds-datamodels-mdpnp
 
-This repository implements the MDPNP datamodel https://github.com/mdpnp/mdpnp/tree/master
+This repository contains the MDPNP datamodel https://github.com/mdpnp/mdpnp/tree/master
 
 ## Repo Organization
 
