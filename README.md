@@ -1,6 +1,8 @@
 # dds-datamodels-mdpnp
 
-This repository implements the MDPNP datamodel https://github.com/mdpnp/mdpnp/tree/master
+This datamodel is an enhanced version of the MDPNP 1.5 datamodel that you can
+find here: https://github.com/mdpnp/mdpnp/tree/master
+
 
 ## Repo Organization
 
@@ -34,6 +36,15 @@ includes the IDL files of the datamodel. Additionally, other folders with the
 name of the technology used for the representation of the datamodel may be
 present. For example: `xml`, `json`...
 
+## Changes on the Datamodel
+
+This enhanced version contains several changes in the datamodel for the MDPNP version 1.5:
+
+ - Replaced the key definition with the IDL 4.2 `@key` annotation.
+ - Replaced the extensibility annotation with the IDL 4.2 `@extensibility(TYPE)`
+ - Changed comments to `@doc("")` custom annotation.
+ - Added `@nested` tag to the non-top-level types.
+
 ## Testing
 
 In order to test this datamodel after the applied changes, `rtiddsgen` from
@@ -42,5 +53,5 @@ automatically. You can find the script here: https://github.com/angelrti/run-rti
 
 In order to run the script in all files the following command was called:
 ```
-run-rtiddsgen -v -D datamodel/idl -o ./delete_generated_files --additional-options="-verbosity 1" --dds-types --skip-files "*DLRL*"
+run-rtiddsgen -v -D datamodel/idl -o ../../delete_generated_files -f "**/*.idl" --additional-options="-verbosity 1"
 ```

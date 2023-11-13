@@ -2,20 +2,21 @@
 
 module ice {
   struct GlobalSimulationObjective {
-    MetricIdentifier metric_id; //@key
+    @key MetricIdentifier metric_id;
     float value;
-    float jitterStep;    // 0 if no jitter
-    float floor;         // 'hard stop' limit of the model 
-    float ceil;          // 'hard stop' limit of the model
+    @doc("0 if no jitter")
+    float jitterStep;
+    @doc("'hard stop' limit of the model")
+    float floor;
+    @doc("'hard stop' limit of the model")
+    float ceil;
   };
-  #pragma keylist GlobalSimulationObjective metric_id
   const string GlobalSimulationObjectiveTopic = "GlobalSimulationObjective";
 
   struct LocalSimulationObjective {
-    UniqueDeviceIdentifier unique_device_identifier; //@key
-    MetricIdentifier metric_id; //@key
+    @key UniqueDeviceIdentifier unique_device_identifier;
+    @key MetricIdentifier metric_id;
     float value;
   };
-  #pragma keylist LocalSimulationObjective unique_device_identifier metric_id
   const string LocalSimulationObjectiveTopic = "LocalSimulationObjective";
 };
