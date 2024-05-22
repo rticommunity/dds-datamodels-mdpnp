@@ -1,0 +1,16 @@
+{
+   "datamodel": {
+       "name": "MDPnP",
+       "domain": "Healthcare",
+       "organization": "OpenICE",
+       "description": "Medical Device Plug-and-Play",
+       "contact": "https://mdpnp.org/",
+       "purpose": "",
+       "topic": "",
+       "version": "version/1.2-beta1-enhanced",
+       "previous": -1,
+       "compression": "",
+       "enhanced": true,
+       "repository": "https://github.com/rticommunity/dds-datamodels-mdpnp/"
+   }
+}
