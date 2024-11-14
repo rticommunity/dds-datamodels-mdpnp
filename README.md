@@ -1,12 +1,13 @@
 # dds-datamodels-mdpnp
 
-This repository contains the MDPNP datamodel https://github.com/mdpnp/mdpnp/tree/master
+This repository contains the MDPNP 1.5 datamodel
+https://github.com/mdpnp/mdpnp/tree/master
 
 ## Repo Organization
 
 ### Versioning & Branches
 
-This repository stores the different versions of the MDPNP datamodel in
+This repository stores different versions of the MDPNP datamodel in
 different branches. Additionally, it contains `enhanced` versions of the
 original datamodel. This enhanced versions modifies the original datamodel
 including the latest IDL features and other potential improvements. The
@@ -15,7 +16,7 @@ different changes are explained in their own readme file.
 The branches in this repo follow this pattern:
 
  - main: this contains the latest enhanced version
- - version/x.y\[-(version_specifier\[-enhanced\]\]
+ - version/x.y\[-(version_specifier)\]\[-enhanced\]
 
 For example, `version/2.0-beta-enhanced`
 
