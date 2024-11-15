@@ -1,8 +1,16 @@
 # dds-datamodels-mdpnp
 
 This datamodel is an enhanced version of the MDPNP 1.5 datamodel that you can
-find here: https://github.com/mdpnp/mdpnp/tree/master
+find here: https://github.com/mdpnp/mdpnp/tree/v1.5.0
+Nothing herein limits your rights under, or grants you rights that supersede,
+the applicable license for this datamodel, and it is your responsibility to
+ensure that your use of this software complies with that license.
 
+This software is provided "as is", with no warranty of any type, including any
+warranty for fitness for any purpose. RTI is under no obligation to maintain or
+support the software. RTI shall not be liable for any incidental or
+consequential damages arising out of the use or inability to use the software.
+This notice must accompany any distributed copies of the software.
 
 ## Repo Organization
 
