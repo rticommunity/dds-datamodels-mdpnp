@@ -1,10 +1,10 @@
 {
    "datamodel": {
-       "name": "MDPnP",
+       "name": "OpenICE",
        "domain": "Healthcare",
-       "organization": "OpenICE",
+       "organization": "MDPnP",
        "contact": "https://mdpnp.org/",
-       "version": "version/1.2-beta1-enhanced",
+       "version": "1.5-enhanced",
        "enhanced": true,
        "repository": "https://github.com/rticommunity/dds-datamodels-mdpnp/",
        "license": {
